@@ -12,7 +12,7 @@ func TestConcretePrototype_Clone(t *testing.T) {
 		name: name,
 	}
 	newProto := proto.Clone()
-	actrualName := newProto.Name()
+	actualName := newProto.Name()
 
-	assert.Equal(t, name, actrualName)
+	assert.Equal(t, name, actualName)
 }
